@@ -5,11 +5,11 @@ Computer science adalah bidang ilmu yang mempelajari komputasi dan pengolahan in
 Logic building merupakan kemampuan menyusun alur berpikir yang runtut, sistematis, dan masuk akal untuk memecahkan masalah. Ini penting karena merupakan pondasi utama dalam pemrograman.
 
 ### Basic Problems
-- Check Even or Odd
-- Multiplication Table
-- Sum of Naturals
-- Sum of Squares of Naturals
-- Swap Two Numbers
+- Check Even or Odd [x]
+- Multiplication Table [x]
+- Sum of Naturals []
+- Sum of Squares of Naturals []
+- Swap Two Numbers []
 - Closest Number
 - Dice Problem
 - Nth Term of AP
