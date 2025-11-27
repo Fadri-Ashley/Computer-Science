@@ -9,8 +9,8 @@ int main() {
     printf("Input number: ");
     scanf("%d", &num);
 
-    for(int i = 0; i <= 10; i++) {
-        sum = i * num;
+    for (int i = 0; i <= 10; i++) {
+        sum = num * i;
         printf("%d x %d = %d\n", i, num, sum);
     }
 

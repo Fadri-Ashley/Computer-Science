@@ -7,7 +7,7 @@ Logic building merupakan kemampuan menyusun alur berpikir yang runtut, sistemati
 ### Basic Problems
 - [x] Check Even or Odd
 - [x] Multiplication Table
-- [ ] Sum of Naturals 
+- [x] Sum of Naturals 
 - [ ] Sum of Squares of Naturals 
 - [ ] Swap Two Numbers 
 - [ ] Closest Number
