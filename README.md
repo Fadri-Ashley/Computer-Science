@@ -8,8 +8,8 @@ Logic building merupakan kemampuan menyusun alur berpikir yang runtut, sistemati
 - [x] Check Even or Odd
 - [x] Multiplication Table
 - [x] Sum of Naturals 
-- [ ] Sum of Squares of Naturals 
-- [ ] Swap Two Numbers 
+- [x] Sum of Squares of Naturals 
+- [x] Swap Two Numbers 
 - [ ] Closest Number
 - [ ] Dice Problem
 - [ ] Nth Term of AP
