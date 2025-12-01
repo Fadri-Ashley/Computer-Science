@@ -10,7 +10,7 @@ Logic building merupakan kemampuan menyusun alur berpikir yang runtut, sistemati
 - [x] Sum of Naturals 
 - [x] Sum of Squares of Naturals 
 - [x] Swap Two Numbers 
-- [ ] Closest Number
+- [x] Find Closest Number to n and Divisible by m
 - [ ] Dice Problem
 - [ ] Nth Term of AP
 

@@ -7,8 +7,7 @@ int main() {
     int a, b, temp;
 
     printf("Input a: ");
-    scanf("%d", &a);
-
+    scanf("%d", &a);    
     printf("Input b: ");
     scanf("%d", &b);
 
@@ -16,7 +15,8 @@ int main() {
     a = b;
     b = temp;
 
-    printf("Output: a = %d, b = %d", a, b);
+    printf("Output a: %d\nOutput b: %d", a, b);
+
 
     return 0;
 }
