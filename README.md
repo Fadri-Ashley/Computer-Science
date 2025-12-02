@@ -12,7 +12,7 @@ Logic building merupakan kemampuan menyusun alur berpikir yang runtut, sistemati
 - [x] Swap Two Numbers 
 - [x] Find Closest Number to n and Divisible by m
 - [x] Dice Problem
-- [ ] Nth Term of AP
+- [x] Nth Term of AP
 
 ### Easy Problems
 - [ ] Sum of Digits
