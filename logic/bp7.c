@@ -9,13 +9,12 @@ int main() {
     printf("Input number: ");
     scanf("%d", &num);
 
-    if (num < 7 && num > 0) {
+    if (num > 0 && 7 > num) {
         num = 7 - num;
         printf("Output: %d", num);
     } else {
-        printf("Invalid");
+        printf("Invalid!");
     }
-    
 
     return 0;
 }
