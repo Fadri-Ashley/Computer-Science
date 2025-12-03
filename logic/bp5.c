@@ -7,16 +7,16 @@ int main() {
     int a, b, temp;
 
     printf("Input a: ");
-    scanf("%d", &a);    
+    scanf("%d", &a);
     printf("Input b: ");
     scanf("%d", &b);
-
+    
     temp = a;
     a = b;
     b = temp;
 
-    printf("Output a: %d\nOutput b: %d", a, b);
-
+    printf("Output a: %d", a);
+    printf("\nOutput b: %d", b);
 
     return 0;
 }
