@@ -1,68 +1,56 @@
 # Computer Science
 Computer science adalah bidang ilmu yang mempelajari komputasi dan pengolahan informasi secara sistematis.
 
-## Logic Building Problems
-Logic building merupakan kemampuan menyusun alur berpikir yang runtut, sistematis, dan masuk akal untuk memecahkan masalah. Ini penting karena merupakan pondasi utama dalam pemrograman.
+## Programming Language
+Bahasa pemrograman yang digunakan saat ini yaitu:
+- [x] C
+- [x] C++
+- [ ] Java
+- [ ] Python
+- [ ] Rust
 
-### Basic Problems
-- [x] Check Even or Odd
-- [x] Multiplication Table
-- [x] Sum of Naturals 
-- [x] Sum of Squares of Naturals 
-- [x] Swap Two Numbers 
-- [x] Find Closest Number to n and Divisible by m
-- [x] Dice Problem
-- [x] Nth Term of AP
+## Data Structures
+Data structure adalah cara khusus untuk mengatur, menyimpan, dan mengorganisir data di komputer agar dapat diakses, digunakan, dan dimanipulasi secara efisien, mempercepat pemrosesan, menghemat memori, serta fondasi algoritma yang efisien untuk aplikasi kompleks seperti pencarian Google atau media sosial.
+- [ ] Array
+- [ ] Linked Lists
+- [ ] Stack
+- [ ] Queue
+- [ ] Tree
+- [ ] Heap
+- [ ] Hash Table
+- [ ] Matrix
+- [ ] Trie
+- [ ] Graph
 
-### Easy Problems
-- [ ] Sum of Digits
-- [ ] Reverse Digits
-- [ ] Prime Testing
-- [ ] Check Power
-- [ ] Distance between Two Points
-- [ ] Valid Triangle
-- [ ] Overlapping Rectangles
-- [ ] Factorial of a Number
-- [ ] Pair Cube Count
-- [ ] GCD or HCF
-- [ ] LCM of Two Numbers
-- [ ] Perfect Number
-- [ ] Add Two Fraction
-- [ ] Day of the Week
-- [ ] Nth Fibonacci Number
-- [ ] Decimal to Binary
-- [ ] N-th term of 1, 3, 6, 10, 15, 21…
-- [ ] Armstrong Number
-- [ ] Palindrome Number
-- [ ] Digit Root
+## Asymptotic Notations
+Asymptotic Notation adalah notasi matematika untuk menggambarkan perilaku laju pertumbuhan fungsi sebuah algoritma saat ukuran input (n) mendekati tak terhingga, dengan mengabaikan konstanta dan suku kecil, fokus pada efisiensi jangka panjang.
+Ada tiga jenis umum asymptotic notations:
+- [ ] Big-O
+- [ ] Big Omega
+- [ ] Big Theta
 
-### Medium Problems
-- [ ] Square Root
-- [ ] 3 Divisors
-- [ ] Divisible by 4
-- [ ] Divisibility by 11
-- [ ] Divisibility by 13
-- [ ] K-th Digit in a^b
-- [ ] Fraction to Recurring Decimal
-- [ ] Recurring Sequence in a Fraction
-- [ ] Compute nPr
-- [ ] Compute nCr
-- [ ] Pascal’s Triangle
-- [ ] All Factor (Or Divisors)
-- [ ] Prime Factorization
-- [ ] Largest Prime factor
-- [ ] Modular Exponentiation
-- [ ] nth Catalan Number
-- [ ] Binomial Coefficient
-- [ ] Power Set
-- [ ] Next Permutation
+## Algorithms
+Algorithms adalah serangkaian langkah atau prosedur logis yang digunakan untuk menyelesaikan suatu masalah secara sistematis.
+Berikut ini kelompok algoritma secara umum:
+- [ ] Graphs
+- [ ] Tree
+- [ ] Recursion
+- [ ] Sorting
+- [ ] Searching
+- [ ] Greedy Algorithms
+- [ ] Back Tracking
+- [ ] Caches
 
-### Hard Problems
-- [ ] Sieve of Eratosthenes
-- [ ] Super Prime
-- [ ] Clock Angle Problem
-- [ ] Tower of Hanoi
-- [ ] Rat and Poisoned
-- [ ] 8 puzzle Problem
-- [ ] Euler's Totient Function
-- [ ] Josephus Problem
+## String Search & Manipulations
+String search dan manipulations adalah bagian dari algoritma string yang berfokus pada pencarian pola teks dan pengolahan string seperti menghapus, membandingkan, memotong, atau menemukan pola tertentu.
+- [ ] Suffix Arrays
+- [ ] Search Pattern in Text
+
+## Floating Point Math
+Floating point math adalah cara komputer mewakili bilangan desimal menggunakan format biner.
+
+## Endianess
+Endianess adalah cara komputer menyimpan urutan byte dari sebuah data di memori.
+- [ ] Big Endian
+- [ ] Little Endian
+
