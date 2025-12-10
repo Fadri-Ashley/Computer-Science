@@ -5,22 +5,23 @@
 // Find Closest Number to n and Divisible by m
 
 int main() {
-
+    
     int num, m;
 
-    printf("Input num: ");
+    printf("Input number: ");
     scanf("%d", &num);
     printf("Input m: ");
     scanf("%d", &m);
 
-    int diff, prediff = INT_MAX, closest = 0;
+    int diff, prediff = INT_MAX, closest;
 
-    for (int i = num - m; i < num + m; i++) {
+    for (int i = num - m; i <= num + m; ++i){
         if (i % m == 0) {
             diff = abs(num - i);
-            if (diff < prediff || (diff == prediff && closest < i)) {
-                prediff = diff;
+
+            if (diff < prediff || (diff == prediff && i > closest)) {
                 closest = i;
+                prediff = diff;
             }
         }
     }

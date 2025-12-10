@@ -1,17 +1,15 @@
 #include <stdio.h>
 
-// Sum of Squares of Naturals
+// Sum of Naturals
 
 int main() {
-    
-    int num, sum = 0;
+
+    int num;
 
     printf("Input number: ");
     scanf("%d", &num);
 
-    for (int i = 1; i <= num; i++) {
-        sum += i * i;
-    }
+    int sum = (num * (num + 1))/2;
 
     printf("Output: %d", sum);
 

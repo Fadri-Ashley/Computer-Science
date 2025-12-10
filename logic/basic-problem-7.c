@@ -9,11 +9,11 @@ int main() {
     printf("Input number: ");
     scanf("%d", &num);
 
-    if (num > 0 && 7 > num) {
-        num = 7 - num;
-        printf("Output: %d", num);
+    if (0 < num && num < 7) {
+        int opp_dice = 7 - num;
+        printf("Output: %d", opp_dice);
     } else {
-        printf("Invalid!");
+        printf("Invalid input");
     }
 
     return 0;

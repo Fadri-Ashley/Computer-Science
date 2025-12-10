@@ -10,13 +10,13 @@ int main() {
     scanf("%d", &a);
     printf("Input b: ");
     scanf("%d", &b);
-    
+
     temp = a;
     a = b;
     b = temp;
 
-    printf("Output a: %d", a);
-    printf("\nOutput b: %d", b);
+    printf("Output a: %d\n", a);
+    printf("Output a: %d", b);
 
     return 0;
 }

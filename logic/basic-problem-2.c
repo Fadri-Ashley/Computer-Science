@@ -4,13 +4,13 @@
 
 int main() {
 
-    int num, sum = 0;
+    int num;
 
     printf("Input number: ");
     scanf("%d", &num);
 
-    for (int i = 1; i <= 10; i++) {
-        sum = i * num;
+    for (int i = 1; i <= 10; i++){
+        int sum = i * num;
         printf("%d x %d = %d\n", i, num, sum);
     }
 
