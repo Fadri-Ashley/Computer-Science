@@ -4,20 +4,18 @@
 
 int main() {
 
-    int a, b, n;
+    int a1, a2, n;
 
     printf("Input a1: ");
-    scanf("%d", &a);
+    scanf("%d", &a1);
     printf("Input a2: ");
-    scanf("%d", &b);
+    scanf("%d", &a2);
     printf("Input n: ");
     scanf("%d", &n);
 
-    int diff = b - a;
+    int nth = a1 + (n - 1) * (a2 - a1);
 
-    int nth = a + ((n - 1) * diff);
-
-    printf("Output: %d", nth);
+    printf("%dnth is %d", n, nth);
 
     return 0;
 }

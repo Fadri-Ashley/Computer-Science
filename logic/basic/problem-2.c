@@ -10,7 +10,7 @@ int main() {
     scanf("%d", &num);
 
     for (int i = 1; i <= 10; i++){
-        int sum = i * num;
+        int sum = num * i;
         printf("%d x %d = %d\n", i, num, sum);
     }
 

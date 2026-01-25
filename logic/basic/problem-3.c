@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Sum of Squares of Naturals
+// Sum of Naturals
 
 int main() {
 
@@ -9,9 +9,9 @@ int main() {
     printf("Input number: ");
     scanf("%d", &num);
 
-    int sum = (num * (num + 1) * ((2 * num) + 1))/6;
+    int sum = (num*(num + 1))/2;
 
-    printf("Output: %d", sum);
+    printf("%d", sum);
 
     return 0;
 }

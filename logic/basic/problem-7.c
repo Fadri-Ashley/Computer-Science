@@ -10,10 +10,8 @@ int main() {
     scanf("%d", &num);
 
     if (0 < num && num < 7) {
-        int opp_dice = 7 - num;
-        printf("Output: %d", opp_dice);
-    } else {
-        printf("Invalid input");
+        num = 7 - num;
+        printf("Output number: %d", num);
     }
 
     return 0;
