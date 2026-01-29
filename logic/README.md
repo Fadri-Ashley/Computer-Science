@@ -12,10 +12,10 @@ Logic building merupakan kemampuan menyusun alur berpikir yang runtut, sistemati
 - [x] Nth Term of AP
 
 ### Easy Problems
-- [ ] Sum of Digits
-- [ ] Reverse Digits
-- [ ] Prime Testing
-- [ ] Check Power
+- [x] Sum of Digits
+- [x] Reverse Digits
+- [x] Prime Testing
+- [x] Check Exponent
 - [ ] Distance between Two Points
 - [ ] Valid Triangle
 - [ ] Overlapping Rectangles
