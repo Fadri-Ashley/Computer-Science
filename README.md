@@ -11,7 +11,7 @@ Bahasa pemrograman yang digunakan saat ini yaitu:
 
 ## Data Structures
 Data structure adalah cara khusus untuk mengatur, menyimpan, dan mengorganisir data di komputer agar dapat diakses, digunakan, dan dimanipulasi secara efisien, mempercepat pemrosesan, menghemat memori, serta fondasi algoritma yang efisien untuk aplikasi kompleks seperti pencarian Google atau media sosial.
-- [x] Array
+- [ ] Array
 - [ ] Linked Lists
 - [ ] Stack
 - [ ] Queue
