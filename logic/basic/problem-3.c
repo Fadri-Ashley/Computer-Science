@@ -9,9 +9,9 @@ int main() {
     printf("Input number: ");
     scanf("%d", &num);
 
-    int sum = (num*(num + 1))/2;
+    int sum = (num * (num + 1))/2;
 
-    printf("%d", sum);
+    printf("Output: %d", sum);
 
     return 0;
 }

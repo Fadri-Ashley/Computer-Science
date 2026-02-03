@@ -6,27 +6,27 @@
 
 int main() {
 
-    int n, m;
+    int num, m;
 
-    printf("Input n: ");
-    scanf("%d", &n);
+    printf("Input number: ");
+    scanf("%d", &num);
     printf("Input m: ");
     scanf("%d", &m);
 
     int closest = 0;
     int minDiff = INT_MAX;
 
-    for (int i = n - abs(m); i <= n + abs(m); ++i){
-        if (i % m == 0) {
-            int diff = abs(n - i);
-            if (diff < minDiff || (diff == minDiff && abs(i) < closest)) {
-                minDiff = diff;
+    for (int i = num - abs(m); i <= num + abs(m); ++i) {
+        if(i % m == 0) {
+            int diff = abs(num - i);
+            if (diff < minDiff || (diff == minDiff && abs(i) > abs(closest))) {
                 closest = i;
+                minDiff = diff;
             }
         }
     }
 
-    printf("Closest number: %d", closest);
+    printf("Output: %d", closest);
 
     return 0;
 }

@@ -13,9 +13,9 @@ int main() {
     printf("Input n: ");
     scanf("%d", &n);
 
-    int nth = a1 + (n - 1) * (a2 - a1);
+    int nth = (a1 + (n - 1) * (a2 - a1));
 
-    printf("%dnth is %d", n, nth);
+    printf("Output: %d", nth);
 
     return 0;
 }

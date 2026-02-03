@@ -6,17 +6,17 @@ int main() {
 
     int a, b;
 
-    printf("Input number a: ");
+    printf("input a: ");
     scanf("%d", &a);
-    printf("Input number b: ");
+    printf("input b: ");
     scanf("%d", &b);
 
     a = a + b;
     b = a - b;
-    a = a - b; 
+    a = a - b;
 
-    printf("Output a: %d \nOutput b: %d", a, b);
-
+    printf("Output a: %d\n", a);
+    printf("Output b: %d", b);
 
     return 0;
 }
