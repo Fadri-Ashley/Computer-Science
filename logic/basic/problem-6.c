@@ -13,15 +13,15 @@ int main() {
     printf("Input m: ");
     scanf("%d", &m);
 
-    int closest = 0;
     int minDiff = INT_MAX;
+    int closest = 0;
 
-    for (int i = num - abs(m); i <= num + abs(m); ++i) {
-        if(i % m == 0) {
+    for (int i = num - abs(m); i < num + abs(m); i++) {
+        if (i % m == 0) {
             int diff = abs(num - i);
             if (diff < minDiff || (diff == minDiff && abs(i) > abs(closest))) {
-                closest = i;
                 minDiff = diff;
+                closest = i;
             }
         }
     }

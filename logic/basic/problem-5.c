@@ -6,9 +6,9 @@ int main() {
 
     int a, b;
 
-    printf("input a: ");
+    printf("Input a: ");
     scanf("%d", &a);
-    printf("input b: ");
+    printf("Input b: ");
     scanf("%d", &b);
 
     a = a + b;
@@ -16,7 +16,7 @@ int main() {
     a = a - b;
 
     printf("Output a: %d\n", a);
-    printf("Output b: %d", b);
+    printf("Output b: %d\n", b);
 
     return 0;
 }

@@ -9,7 +9,7 @@ int main() {
     printf("Input number: ");
     scanf("%d", &num);
 
-    if (0 < num && num < 7) {
+    if (num > 0 && num < 7) {
         int dice = 7 - num;
         printf("Output: %d", dice);
     } else {

@@ -4,12 +4,11 @@
 
 int main() {
 
-    int num;
-
+    int num, sum; 
     printf("Input number: ");
     scanf("%d", &num);
 
-    int sum = (num * (num + 1))/2;
+    sum = (num * (num + 1))/2;
 
     printf("Output: %d", sum);
 
